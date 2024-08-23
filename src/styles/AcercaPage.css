@@ -1,0 +1,82 @@
+* {
+    /* background-color: aquamarine; */
+}
+
+.acerca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ocupa todo el ancho del contenedor padre */
+    max-width: 1200px; /* Máximo ancho que deseas para el contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.habilidadesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ocupa todo el ancho del contenedor padre */
+    max-width: 1200px; /* Máximo ancho que deseas para el contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espacio alrededor del contenido */
+    /* background-color: aqua; */ /* Solo si deseas ver el área del contenedor */
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Espacio entre las cards */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor padre */
+}
+
+.habilidades h2 {
+    grid-column: 1 / -1; /* Hace que el título ocupe toda la fila */
+    text-align: center;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Habilidades_Tecnicas_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ocupa todo el ancho del contenedor padre */
+    max-width: 1200px; /* Máximo ancho que deseas para el contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espacio alrededor del contenido */
+    /* background-color: aqua; */ /* Solo si deseas ver el área del contenedor */
+}
+.Habilidades_Tecnicas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+} 
+
+.Experiencia_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ocupa todo el ancho del contenedor padre */
+    max-width: 1200px; /* Máximo ancho que deseas para el contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espacio alrededor del contenido */
+    /* background-color: aqua; */ /* Solo si deseas ver el área del contenedor */
+}
+
+.Experiencia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+  

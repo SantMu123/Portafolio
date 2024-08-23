@@ -1,0 +1,18 @@
+.contenedorCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    width: 280px;
+    height: 300px;
+    border-radius: 10px; /* Bordes redondeados opcional */
+    padding: 1em;
+}
+
+.contenedorCard_Imagen {
+    width: auto;
+    display: flex;
+    justify-content: left;
+}
