@@ -1,17 +1,64 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import Header from './Header.jsx'
-import Gancho from './Gancho.jsx'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header.jsx';
+import Gancho from './components/Gancho.jsx';
 import './main.css';
-import Acerca from './Acerca.jsx';
-
-
+import Acerca from './components/AcercaComponente.jsx';
+import Card from './components/Card.jsx';
+import Footer from './components/Footer.jsx';
+import AcercaPage from "./pages/Acerca.jsx"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header />
-    <img src = "../public/Paisaje.jpg"/>
-    <Gancho />
-    <Acerca />
+    <Router>
+      <Header/>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <div className='imagenInicial'>
+              <img src="../public/Paisaje.jpg" alt="Paisaje"/>
+            </div>
+            <div className='container1'>
+              <Gancho />
+              <Acerca />
+            </div>
+            <div className='seccion1'>
+              <Card 
+                imgSrc="../../public/device-mobile.svg" 
+                title="Cooworking" 
+                description="Otro texto descriptivo para esta tarjeta."
+              />
+              <Card 
+                imgSrc="../../public/device-mobile.svg" 
+                title="Programador Backend Junior" 
+                description="Otro texto descriptivo para esta tarjeta."
+              />
+              <Card 
+                imgSrc="../../public/device-mobile.svg" 
+                title="Ingeniería Industrial" 
+                description="Otro texto descriptivo para esta tarjeta."
+              />
+            </div>
+            <div className='seccionProyectos'>
+              <div>
+                <img src="../public/imagen de portada_interactiva.svg" alt="Proyecto 1"/>
+              </div>
+              <div>
+                <img src="../public/imagen de portada_interactiva_dos.svg" alt="Proyecto 2"/>
+              </div>
+              <div>
+                <img src="../public/imagen de portada_interactiva_tres.svg" alt="Proyecto 3"/>
+              </div>
+              <button>Ver más Proyectos</button>
+            </div>
+            <Footer />
+          </>
+        } />
+        <Route path="/acerca" element={<AcercaPage />} />
+        {/* Puedes agregar más rutas aquí si es necesario */}
+      </Routes>
+    </Router>
   </StrictMode>,
-)
+);
+
