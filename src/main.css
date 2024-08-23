@@ -7,10 +7,34 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
   }
-  
+
+.imagenInicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion1 {
+    /* width: 5em; */
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+.seccionProyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
 }
 
