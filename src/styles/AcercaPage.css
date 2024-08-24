@@ -10,6 +10,7 @@
     width: 100%; /* Ocupa todo el ancho del contenedor padre */
     max-width: 1200px; /* Máximo ancho que deseas para el contenido */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
+    margin-top: 2.5em;
 }
 
 .habilidadesContainer {
@@ -27,8 +28,8 @@
 .habilidades {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; /* Espacio entre las cards */
-    width: 100%; /* Asegura que ocupe todo el ancho del contenedor padre */
+    gap: 20px;
+    padding: 20px;
 }
 
 .habilidades h2 {
@@ -61,7 +62,7 @@
     padding: 20px;
 } 
 
-.Experiencia_container {
+.Experiencia_Container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,6 +78,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 10px;
+    padding: 20px;
 }
   

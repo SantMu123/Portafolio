@@ -8,6 +8,9 @@ import Acerca from './components/AcercaComponente.jsx';
 import Card from './components/Card.jsx';
 import Footer from './components/Footer.jsx';
 import AcercaPage from "./pages/Acerca.jsx"
+import Proyectos from './pages/Proyectos.jsx';
+import ContactSection from './pages/Contacto.jsx';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -56,6 +59,8 @@ createRoot(document.getElementById('root')).render(
           </>
         } />
         <Route path="/acerca" element={<AcercaPage />} />
+        <Route path="/proyectos" element={<Proyectos />} />
+        <Route path="/contacto" element={<ContactSection />} />
         {/* Puedes agregar más rutas aquí si es necesario */}
       </Routes>
     </Router>
