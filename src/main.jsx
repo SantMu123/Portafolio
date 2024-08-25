@@ -26,6 +26,7 @@ createRoot(document.getElementById('root')).render(
               <Gancho />
               <Acerca />
             </div>
+            <h1 className='Habilidades_Home'>Habilidades</h1>
             <div className='seccion1'>
               <Card 
                 imgSrc="../../public/device-mobile.svg" 
@@ -58,7 +59,7 @@ createRoot(document.getElementById('root')).render(
             <Footer />
           </>
         } />
-        <Route path="/acerca" element={<AcercaPage />} />
+        <Route path="/acerca/*" element={<AcercaPage />} />
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/contacto" element={<ContactSection />} />
         {/* Puedes agregar más rutas aquí si es necesario */}

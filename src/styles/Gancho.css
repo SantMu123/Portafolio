@@ -2,11 +2,79 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
     align-items: center;
-    background-color: #333;
+    /* background-color: #333; */
     color: white;
-    width: 400px;
-    height: 300px;
+    width: 550px;
+    height: 320px;
     border-radius: 10px; /* Bordes redondeados opcional */
     padding: 1em;
+    background: rgba(255, 255, 255, 0); /* Fondo blanco con 10% de opacidad */
+    backdrop-filter: blur(15px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
+    z-index: 5;
+}
+
+.header_gancho {
+    display: flex;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 1.5em;
+    /* background-color: red; */
+    height: 2.5em;
+    gap: .5em;
+}
+
+.header_gancho label {
+    font-size: 1.5em;
+    background: linear-gradient(to right, #47D16E, #59EBFF);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.ocupacion {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.8em;
+}
+.descripcion {
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    background-color: transparent;
+}
+.botones {
+    background-color: transparent;
+}
+.botones_Proyectos,
+.botones_CV {
+    font-family: "DM Sans", sans-serif;
+    background: #47D16E;
+    border: none;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #524646,  
+         1px -1px 0 #524646,
+        -1px  1px 0 #524646,
+         1px  1px 0 #524646; /* Sombra en las cuatro direcciones */
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-right: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.botones_Proyectos:hover, 
+.botones_CV:hover {
+    background: #59EBFF;
 }

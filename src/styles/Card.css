@@ -9,6 +9,10 @@
     height: 300px;
     border-radius: 10px; /* Bordes redondeados opcional */
     padding: 1em;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
 }
 
 .contenedorCard_Imagen {

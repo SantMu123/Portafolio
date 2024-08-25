@@ -1,4 +1,4 @@
-*{
+body{
     padding: .15em;
     background-color: #272728;
 }
@@ -38,3 +38,12 @@ img {
     gap: .5em;
 }
 
+.Habilidades_Home{
+    color: white;
+    text-align: center;
+}
+
+.seccion1 {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
