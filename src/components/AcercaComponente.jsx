@@ -5,7 +5,7 @@ const Acerca = () => {
   return (
     <div className="Acerca">
       <div className='Acerca_imagen'>
-        <img src='../public/Gato.jpg'/>
+        <img src='/FotoSantiago.png'/>
       </div>
       <div className='Acerca_info'>
         <h1>Acerca de Mi</h1>

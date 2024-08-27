@@ -10,6 +10,9 @@ import Footer from './components/Footer.jsx';
 import AcercaPage from "./pages/Acerca.jsx"
 import Proyectos from './pages/Proyectos.jsx';
 import ContactSection from './pages/Contacto.jsx';
+import { FaPython, FaDatabase } from 'react-icons/fa';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -29,17 +32,17 @@ createRoot(document.getElementById('root')).render(
             <h1 className='Habilidades_Home'>Habilidades</h1>
             <div className='seccion1'>
               <Card 
-                imgSrc="../../public/device-mobile.svg" 
+                Icon={FaPython} 
                 title="Cooworking" 
                 description="Otro texto descriptivo para esta tarjeta."
               />
               <Card 
-                imgSrc="../../public/device-mobile.svg" 
+                Icon={FaPython} 
                 title="Programador Backend Junior" 
                 description="Otro texto descriptivo para esta tarjeta."
               />
               <Card 
-                imgSrc="../../public/device-mobile.svg" 
+                Icon={FaPython} 
                 title="Ingeniería Industrial" 
                 description="Otro texto descriptivo para esta tarjeta."
               />

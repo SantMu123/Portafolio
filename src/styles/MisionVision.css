@@ -1,0 +1,38 @@
+.mision-vision-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #1F1F21;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .mision, .vision {
+    width: 45%;
+    background-color: #2C2C2E;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .mision:hover, .vision:hover {
+    background-color: #0d99ff;
+    transform: translateY(-5px);
+    color: #1F1F21;
+  }
+  
+  .mision h2, .vision h2 {
+    color: #0d99ff;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .mision p, .vision p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

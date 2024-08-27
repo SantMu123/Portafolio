@@ -1,0 +1,52 @@
+.objetivos-container {
+    background-color: #1F1F21;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .objetivos-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .objetivos-header h2 {
+    color: #0d99ff;
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .objetivos-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .objetivo-card {
+    background-color: #2C2C2E;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .objetivo-card:hover {
+    background-color: #0d99ff;
+    transform: scale(1.05);
+    color: #1F1F21;
+  }
+  
+  .objetivo-card h3 {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    color: #0d99ff;
+  }
+  
+  .objetivo-card p {
+    font-size: 16px;
+    margin: 0;
+  }
+  

@@ -6,6 +6,13 @@ import '../styles/AcercaPage.css';
 import { Route, Routes } from 'react-router-dom';
 import Proyectos from './Proyectos.jsx';
 import ContactSection from './Contacto.jsx';
+import Objetivos from '../components/Objetivos.jsx';
+import MisionVision from '../components/MisionVision.jsx';
+import { FaPython, FaDocker  } from 'react-icons/fa';
+import { DiJavascript, DiNodejsSmall, DiReact, DiGit, DiGithubBadge, DiMongodb, DiMysql} from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const AcercaPage = () => {
     return (
@@ -16,31 +23,37 @@ const AcercaPage = () => {
                         <div className='acerca'>
                             <Acerca />
                         </div>
+                        <div className='objetivos'>
+                            <Objetivos />
+                        </div>
+                        <div className='MisionVision'>
+                            <MisionVision />
+                        </div>
                         <div className='habilidadesContainer'>
                             <h2>Habilidades</h2> 
                             <div className='habilidades'>
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
+                                    Icon={FaPython} 
                                     title="Cooworking" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
+                                    Icon={DiJavascript } 
                                     title="Cooworking" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
+                                    Icon={FaPython} 
                                     title="Cooworking" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
+                                    Icon={FaPython} 
                                     title="Cooworking" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
+                                    Icon={FaPython} 
                                     title="Cooworking" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
@@ -50,48 +63,48 @@ const AcercaPage = () => {
                             <h2>Habilidades Técnicas</h2>
                             <div className='Habilidades_Tecnicas'>
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
-                                    title="Cooworking" 
+                                    Icon={FaPython} 
+                                    title="Python" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
-                                    title="Programador Backend Junior" 
+                                    Icon={DiJavascript} 
+                                    title="Javascript" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
-                                    title="Ingeniería Industrial" 
+                                    Icon={DiNodejsSmall} 
+                                    title="Node.js" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
-                                    title="Ingeniería Industrial" 
+                                    Icon={DiReact} 
+                                    title="React" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
-                                    title="Ingeniería Industrial" 
+                                    Icon={DiGit } 
+                                    title="Git" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
-                                    title="Ingeniería Industrial" 
+                                    Icon={FaDocker } 
+                                    title="Docker" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
-                                    title="Ingeniería Industrial" 
+                                    Icon={DiMongodb } 
+                                    title="MongoDB" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
-                                    title="Ingeniería Industrial" 
+                                    Icon={DiMysql } 
+                                    title="MySQL" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
-                                    title="Ingeniería Industrial" 
+                                    Icon={SiTypescript} 
+                                    title="Typescript" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                             </div>
@@ -100,17 +113,17 @@ const AcercaPage = () => {
                             <h2>Experiencia</h2>
                             <div className='Experiencia'>
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
+                                    Icon={FaPython} 
                                     title="Cooworking" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
+                                    Icon={FaPython} 
                                     title="Ingeniería Industrial" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />
                                 <Card 
-                                    imgSrc="../../public/device-mobile.svg" 
+                                    Icon={FaPython} 
                                     title="Ingeniería Industrial" 
                                     description="Otro texto descriptivo para esta tarjeta."
                                 />

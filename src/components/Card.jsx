@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/Card.css';
 
-const Card = ({ imgSrc, title, description }) => {
+const Card = ({ Icon, title, description }) => {
     return (
       <section className='contenedorCard'>
         <div className='contenedorCard_Imagen'>
-            <img src={imgSrc} alt={title} />
+            <Icon className='card-icon' />
         </div>
         <div className='contenedorCard_Texto'>
             <h2 className='contenedorCard_Texto_Titulo'>{title}</h2>
@@ -16,3 +16,4 @@ const Card = ({ imgSrc, title, description }) => {
 }
 
 export default Card;
+

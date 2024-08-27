@@ -4,12 +4,10 @@
     height: 300px;
     border-radius: 10px; /* Bordes redondeados opcional */
     padding: 1em;
-    border-radius: 10px; /* Bordes redondeados opcional */
-    padding: 1em;
     backdrop-filter: blur(15px); /* Desenfoque del fondo */
     -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
      /* Borde blanco semi-transparente */
-    background-color: #1F1F21;
+    background-color: #272728;
     padding: 40px;
     border-radius: 15px;
     margin-top: 8em;
@@ -30,31 +28,49 @@
     left: 50%;
     width: 300%;
     height: 300%;
-    background: radial-gradient(circle, #356843 0%, rgba(255, 255, 255, 0) 40%);
+    background: radial-gradient(ellipse, #0d99ff 0%, rgba(255, 255, 255, 0) 35%);
     transform: translate(-50%, -50%);
     filter: blur(50px);
     z-index: -1; /* Asegúrate de que esto esté detrás de otros elementos */
     pointer-events: none; /* Permite que los clics pasen a través del pseudo-elemento */
 }
 
+.Acerca::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 44, 44); /* Color sólido para bloquear la iluminación detrás del contenedor */
+    border-radius: 15px; /* Coincide con el borde del contenedor */
+    z-index: -1; /* Debe estar detrás del contenido pero delante del pseudo-elemento ::before */
+}
+
 
 .Acerca_imagen {
-    width: 150%;
+    width: 100%;
+    /* background-color: red; */
     /* height: 300px; */
     padding: .5em;
-    background-color: transparent;
+    /* background-color: transparent; */
+}
+.Acerca_imagen img {
+    border-radius: 15px;
 }
 
 .Acerca_info {
+    /* background-color: purple; */
     display: flex;
+    margin-left: 2em;
     flex-direction: column;
     align-items: center;
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 
 .boton_Acerca {
     font-family: "DM Sans", sans-serif;
-    background: #47D16E;
+    background: #0d99ff;
     border: none;
     color: white;
     text-shadow: 

@@ -33,7 +33,7 @@
 
 .header_gancho label {
     font-size: 1.5em;
-    background: linear-gradient(to right, #47D16E, #59EBFF);
+    background: linear-gradient(to right, #0d99ff, #59EBFF);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -56,7 +56,7 @@
 .botones_Proyectos,
 .botones_CV {
     font-family: "DM Sans", sans-serif;
-    background: #47D16E;
+    background: #0d99ff;
     border: none;
     color: white;
     text-shadow: 
