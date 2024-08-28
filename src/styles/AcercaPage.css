@@ -1,7 +1,9 @@
 * {
     /* background-color: aquamarine; */
 }
-
+h2 {
+    color: white;
+}
 .acerca {
     display: flex;
     flex-direction: column;

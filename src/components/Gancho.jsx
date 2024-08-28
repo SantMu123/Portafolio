@@ -11,7 +11,9 @@ const Gancho = () => {
       <p className='descripcion'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta a et velit expedita odio ipsa eos? Assumenda iure distinctio cupiditate nobis. Et magnam quasi reprehenderit fugiat ducimus sit laudantium impedit.</p>
       <div className='botones'>
         <button className='botones_Proyectos'>Ver Proyectos</button>
-        <button className='botones_CV'>Descargar CV</button>
+        <a href="/Santiago_Munoz_Castaneda_CV.pdf" download className='botones_CV'>
+          Descargar CV
+        </a>
       </div>
     </section>
   );
