@@ -1,0 +1,41 @@
+.project-container {
+    background: rgb(46, 44, 44);
+    background: linear-gradient(to right, #0d99ff, #59EBFF);
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-title {
+    color: #0d99ff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .project-details {
+    text-align: left;
+  }
+  
+  .project-date,
+  .project-location {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .project-description {
+    margin-top: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

@@ -1,10 +1,11 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
     background-color: #333;
     color: white;
+    gap: 80em;
   }
   
   .logo {
@@ -15,7 +16,7 @@
   .nav ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 50px;
   }
   
   .nav ul li {
