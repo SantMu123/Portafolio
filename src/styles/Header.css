@@ -1,22 +1,45 @@
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* Distribuye espacio entre los elementos */
   align-items: center;
   padding: 20px;
   background-color: #333;
   color: white;
-  gap: 80em;
+}
+
+/* Animación de pulsación para el logo */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    color: white;
+  }
+  50% {
+    transform: scale(1.1);
+    color: #ff5733; /* Cambia el color durante la animación */
+  }
+  100% {
+    transform: scale(1);
+    color: white;
+  }
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
+.logo:hover {
+  animation: pulse 1s infinite; /* Repite la animación infinitamente */
+  text-shadow: 0 0 10px rgba(255, 87, 51, 0.5); /* Sombra suave para profundidad */
+}
+
 
 .nav ul {
   list-style-type: none;
   display: flex;
-  gap: 50px;
+  gap: 50px; /* Espacio entre los ítems del menú */
 }
 
 .nav ul li {
@@ -54,5 +77,6 @@
 .contact-button:hover {
   background-color: #c70039;
 }
+
 
   

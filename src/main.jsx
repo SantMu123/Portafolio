@@ -10,7 +10,7 @@ import Footer from './components/Footer.jsx';
 import AcercaPage from "./pages/Acerca.jsx"
 import Proyectos from './pages/Proyectos.jsx';
 import ContactSection from './pages/Contacto.jsx';
-import { FaPython, FaDatabase } from 'react-icons/fa';
+import { FaPython, FaDatabase, FaProjectDiagram, FaSitemap} from 'react-icons/fa';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -29,33 +29,33 @@ createRoot(document.getElementById('root')).render(
               <Gancho />
               <Acerca />
             </div>
-            <h1 className='Habilidades_Home'>Habilidades</h1>
+            <h1 className='Habilidades_Home'>Dominios</h1>
             <div className='seccion1'>
               <Card 
                 Icon={FaPython} 
-                title="Cooworking" 
+                title="Desarrollo Web" 
                 description="Otro texto descriptivo para esta tarjeta."
               />
               <Card 
-                Icon={FaPython} 
-                title="Programador Backend Junior" 
+                Icon={FaProjectDiagram} 
+                title="Proyectos" 
                 description="Otro texto descriptivo para esta tarjeta."
               />
               <Card 
-                Icon={FaPython} 
+                Icon={FaSitemap} 
                 title="Ingeniería Industrial" 
                 description="Otro texto descriptivo para esta tarjeta."
               />
             </div>
             <div className='seccionProyectos'>
               <div>
-                <img src="../public/imagen de portada_interactiva.svg" alt="Proyecto 1"/>
+                <img src="../public/1.png" alt="Proyecto 1"/>
               </div>
               <div>
-                <img src="../public/imagen de portada_interactiva_dos.svg" alt="Proyecto 2"/>
+                <img src="../public/2.png" alt="Proyecto 2"/>
               </div>
               <div>
-                <img src="../public/imagen de portada_interactiva_tres.svg" alt="Proyecto 3"/>
+                <img src="../public/3.png" alt="Proyecto 3"/>
               </div>
               <button>Ver más Proyectos</button>
             </div>

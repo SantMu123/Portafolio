@@ -9,7 +9,7 @@ const Acerca = () => {
       </div>
       <div className='Acerca_info'>
         <h1>Acerca de Mi</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quidem incidunt accusamus vel praesentium iusto modi vero, ipsum, architecto quis et est aut culpa, accusantium excepturi minus expedita rerum aliquam!</p>
+        <p>Como profesional integral y proactivo, siempre busco oportunidades para agregar valor en cualquier entorno. Mi enfoque orientado a resultados y mi pasión por la innovación me permiten enfrentar desafíos complejos y aportar soluciones efectivas.</p>
         <button className='boton_Acerca'>Más Acerca de Mí</button>
       </div>
     </div>

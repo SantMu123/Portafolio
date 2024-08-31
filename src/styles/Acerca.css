@@ -68,6 +68,10 @@
     /* background-color: transparent; */
 }
 
+.Acerca_info {
+    text-align: left;
+}
+
 .boton_Acerca {
     font-family: "DM Sans", sans-serif;
     background: #0d99ff;

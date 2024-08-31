@@ -14,31 +14,28 @@ const Proyectos = () => {
         </div>
         <div className='habilidadesContainer'>
             <ProjectDescription
-            title="My Awesome Project"
-            image="../public/imagen de portada_interactiva.svg"
+            title="Proyecto Nuntius"
+            image="../public/1.png"
             date="August 28, 2024"
-            location="San Francisco, CA"
-            description="This project is about building a responsive and visually appealing web application using React and CSS."
+            description="Estructuración de idea de negocio sobre una App Revolucionaria enfocada en aumentar la seguridad de las ciudades"
         />
         </div>
 
         <div className='habilidadesContainer'>
             <ProjectDescription
-            title="My Awesome Project"
-            image="../public/imagen de portada_interactiva.svg"
+            title="Cinema Campus"
+            image="../public/2.png"
             date="August 28, 2024"
-            location="San Francisco, CA"
-            description="This project is about building a responsive and visually appealing web application using React and CSS."
+            description="Creacion de una App utilizando herramientas MERN (MongoDB, Express, React, Node) en la cual se maneja por medio de APIs toda la logica de un cinema"
         />
         </div>
 
         <div className='habilidadesContainer'>
             <ProjectDescription
-            title="My Awesome Project"
-            image="../public/imagen de portada_interactiva.svg"
+            title="Space X"
+            image="../public/3.png"
             date="August 28, 2024"
-            location="San Francisco, CA"
-            description="This project is about building a responsive and visually appealing web application using React and CSS."
+            description="Creacion de Interfaz de consola de Space X utilizando Javascript Vanilla"
         />
         </div>
         

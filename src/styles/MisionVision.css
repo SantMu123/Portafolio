@@ -20,7 +20,7 @@
   }
   
   .mision:hover, .vision:hover {
-    background-color: #0d99ff;
+    background-color: #a4bcce;
     transform: translateY(-5px);
     color: #1F1F21;
   }
