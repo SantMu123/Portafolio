@@ -12,22 +12,22 @@ const Footer = () => {
       <div className="footer-column">
         <h4>Inicio</h4>
         <ul>
-          <li><a href="#home">Inicio</a></li>
-          <li><a href="#about">Acerca de mí</a></li>
-          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/acerca">Acerca de mí</a></li>
+          <li><a href="/proyectos">Proyectos</a></li>
         </ul>
       </div>
       <div className="footer-column">
         <h4>Contáctame</h4>
         <ul>
-          <li><a href="mailto:correo@example.com">Correo</a></li>
-          <li><a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="smunozcastaneda14@gmail.com">Correo</a></li>
+          <li><a href="https://www.linkedin.com/in/santiagomunozcastaneda/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
       </div>
       <div className="footer-column">
         <h4>Social</h4>
         <ul className="social-icons">
-          <li><a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
+          <li><a href="https://www.linkedin.com/in/santiagomunozcastaneda/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
           <li><a href="https://twitter.com/username" target="_blank" rel="noopener noreferrer"><FaTwitter /></a></li>
           <li><a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
         </ul>

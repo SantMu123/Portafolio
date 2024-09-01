@@ -34,28 +34,28 @@ const AcercaPage = () => {
                             <div className='habilidades'>
                                 <Card 
                                     Icon={FaPython} 
-                                    title="Cooworking" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    title="Liderazgo" 
+                                    description="Experiencia liderando proyectos de Investigacion y Programación"
                                 />
                                 <Card 
                                     Icon={DiJavascript } 
-                                    title="Cooworking" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    title="Trabajo en Equipo" 
+                                    description="Comunicación efectiva y escucha activa con los integrantes de proyectos"
                                 />
                                 <Card 
                                     Icon={FaPython} 
-                                    title="Cooworking" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    title="Autodidacta" 
+                                    description="Facilidad en aprender temas nuevos en corto tiempo"
                                 />
                                 <Card 
                                     Icon={FaPython} 
-                                    title="Cooworking" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    title="Adaptación al cambio" 
+                                    description="Me adapto facilmente a cambios en mi entorno"
                                 />
                                 <Card 
                                     Icon={FaPython} 
-                                    title="Cooworking" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    title="Empatia" 
+                                    description="Tengo en cuenta las necesidades de los demas para un trato fluido"
                                 />
                             </div>
                         </div>
@@ -65,52 +65,52 @@ const AcercaPage = () => {
                                 <Card 
                                     Icon={FaPython} 
                                     title="Python" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    description="Avanzado"
                                 />
                                 <Card 
                                     Icon={DiJavascript} 
                                     title="Javascript" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    description="Intermedio"
                                 />
                                 <Card 
                                     Icon={DiNodejsSmall} 
                                     title="Node.js" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    description="Intermedio"
                                 />
                                 <Card 
                                     Icon={DiReact} 
                                     title="React" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    description="Intermedio"
                                 />
                                 <Card 
                                     Icon={DiGit } 
                                     title="Git" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    description="Básico"
                                 />
                                 <Card 
                                     Icon={FaDocker } 
                                     title="Docker" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    description="Básico"
                                 />
                                 <Card 
                                     Icon={DiMongodb } 
                                     title="MongoDB" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    description="Intermedio"
                                 />
                                 <Card 
                                     Icon={DiMysql } 
                                     title="MySQL" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    description="Básico"
                                 />
                                 <Card 
                                     Icon={SiTypescript} 
                                     title="Typescript" 
-                                    description="Otro texto descriptivo para esta tarjeta."
+                                    description="Básico"
                                 />
                             </div>
                         </div>
                         <div className='Experiencia_Container'>
-                            <h2>Experiencia</h2>
+                            <h2>Otras Habilidades Profesionales</h2>
                             <div className='Experiencia'>
                                 <Card 
                                     Icon={FaPython} 

@@ -34,17 +34,17 @@ createRoot(document.getElementById('root')).render(
               <Card 
                 Icon={FaPython} 
                 title="Desarrollo Web" 
-                description="Otro texto descriptivo para esta tarjeta."
+                description="Entusiasta de la Programación Backend"
               />
               <Card 
                 Icon={FaProjectDiagram} 
                 title="Proyectos" 
-                description="Otro texto descriptivo para esta tarjeta."
+                description="Conocmientos de metodologías Agiles."
               />
               <Card 
                 Icon={FaSitemap} 
                 title="Ingeniería Industrial" 
-                description="Otro texto descriptivo para esta tarjeta."
+                description="Finanzas Corporativas, Dirección de Operaciones, Estadistica"
               />
             </div>
             <div className='seccionProyectos'>
@@ -57,7 +57,7 @@ createRoot(document.getElementById('root')).render(
               <div>
                 <img src="../public/3.png" alt="Proyecto 3"/>
               </div>
-              <button>Ver más Proyectos</button>
+              <button className='MasProyectos'><a href="/proyectos">Ver más Proyectos</a></button>
             </div>
             <Footer />
           </>

@@ -10,6 +10,10 @@
     display: flex;
     flex-direction: column;
   }
+  .footer-column h4{
+    color: #2b92db;
+    font-size: 1.3em;
+  }
   
   .footer-logo {
     font-size: 24px;

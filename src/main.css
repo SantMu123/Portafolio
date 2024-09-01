@@ -4,13 +4,13 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
   }
-Header {
+/* Header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-}
+} */
 
 .imagenInicial {
     margin-top: 10em;
@@ -57,3 +57,35 @@ img {
 .seccionProyectos img {
     border-radius: 1.3em;
 }
+
+.MasProyectos {
+    background: linear-gradient(to right, #0d99ff, #59EBFF);
+    color: white; /* Color del texto blanco */
+    padding: 15px 30px; /* Espaciado interno */
+    border: none; /* Sin bordes */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    cursor: pointer; /* Cursor de puntero al pasar el ratón */
+    transition: background-color 0.3s ease; /* Suavizado al cambiar el color de fondo */
+  }
+  
+  .MasProyectos:hover {
+    background-color: #0d99ff; /* Cambia el color de fondo al pasar el ratón */
+  }
+  
+  .MasProyectos:active {
+    background-color: #3e8e41; /* Color de fondo al hacer clic */
+    transform: scale(0.98); /* Pequeño efecto de reducción al hacer clic */
+  }
+  
+  .MasProyectos:focus {
+    outline: none; /* Sin contorno de enfoque */
+    box-shadow: 0 0 0 3px rgba(72, 180, 97, 0.5); /* Sombra al estar enfocado */
+  }
+
+  .MasProyectos a{
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Hereda el color del texto de su contenedor */
+  }
