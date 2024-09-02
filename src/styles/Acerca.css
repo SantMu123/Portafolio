@@ -42,7 +42,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(46, 44, 44); /* Color sólido para bloquear la iluminación detrás del contenedor */
+    background-color: #bebaba; /* Color sólido para bloquear la iluminación detrás del contenedor */
     border-radius: 15px; /* Coincide con el borde del contenedor */
     z-index: -1; /* Debe estar detrás del contenido pero delante del pseudo-elemento ::before */
 }
@@ -54,6 +54,8 @@
     /* height: 300px; */
     padding: .5em;
     /* background-color: transparent; */
+    display: flex;
+    align-items: center;
 }
 .Acerca_imagen img {
     border-radius: 15px;
@@ -68,6 +70,15 @@
     /* background-color: transparent; */
 }
 
+.Acerca_info p{
+    font-size: 1.2em;
+    color: rgb(117, 113, 113);
+}
+
+.Acerca_info h1{
+    /* font-size: 1.2em; */
+    color: rgb(117, 113, 113);
+}
 .Acerca_info {
     text-align: left;
 }
@@ -92,4 +103,6 @@
     margin-bottom: .5em;
 }
 
-
+.nombre{
+    color:white;
+}

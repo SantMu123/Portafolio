@@ -2,7 +2,7 @@
     /* background-color: aquamarine; */
 }
 h2 {
-    color: white;
+    color: #bebaba;
 }
 .acerca {
     display: flex;
@@ -90,4 +90,41 @@ h2 {
     gap: 20px;
     padding: 20px;
 }
-  
+
+.Estudios{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+    color: #bebaba;
+}
+.Estudios h1{
+    color: #bebaba;
+    font-size: 1.5em;
+}
+.UIS-Campus{
+    display: flex;
+    gap: 3em;
+}
+
+.UIS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Campus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UIS img{
+    width: 20em;
+}
+.Campus img{
+    width: 20em;
+}
+.estudiosLabel{
+    margin-top: 2em;
+}

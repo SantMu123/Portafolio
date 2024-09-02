@@ -1,0 +1,12 @@
+.habilidadesContainerUno{
+    /* background-color: red; */
+    margin-bottom: 5em;
+    
+    /* background-color: transparent; */
+}
+.Tecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: #1F1F21;
+    background-color: #bebaba;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
@@ -13,16 +13,16 @@
   
   .mision, .vision {
     width: 45%;
-    background-color: #2C2C2E;
+    background-color: #a1a1a5;
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease, background-color 0.3s ease;
   }
   
   .mision:hover, .vision:hover {
-    background-color: #a4bcce;
+    background-color: #505355;
     transform: translateY(-5px);
-    color: #1F1F21;
+    color: #bebaba;
   }
   
   .mision h2, .vision h2 {

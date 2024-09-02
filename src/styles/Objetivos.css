@@ -1,5 +1,5 @@
 .objetivos-container {
-    background-color: #1F1F21;
+    background-color: #bebaba;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
@@ -26,7 +26,7 @@
   }
   
   .objetivo-card {
-    background-color: #2C2C2E;
+    background-color: #a1a1a5;
     border-radius: 10px;
     padding: 15px;
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -34,9 +34,9 @@
   }
   
   .objetivo-card:hover {
-    background-color: #a4bcce;
+    background-color: #505355;
     transform: scale(1.05);
-    color: #1F1F21;
+    color: #bebaba;
   }
   
   .objetivo-card h3 {

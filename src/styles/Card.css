@@ -4,7 +4,7 @@
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-  background-color: #333;
+  background-color: #bebaba;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -44,10 +44,10 @@
 .contenedorCard_Texto_Titulo {
   font-size: 1.5rem;
   margin: 0;
-  color: white; /* Ajusta el color del título según tus preferencias */
+  color: rgb(117, 113, 113); /* Ajusta el color del título según tus preferencias */
 }
 
 .contenedorCard_Texto_Parrafo {
   font-size: 1rem;
-  color: white; /* Ajusta el color del párrafo según tus preferencias */
+  color: rgb(117, 113, 113); /* Ajusta el color del párrafo según tus preferencias */
 }

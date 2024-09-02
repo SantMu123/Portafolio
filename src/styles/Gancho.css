@@ -5,21 +5,24 @@
     margin-top: 2em;
     margin-bottom: 2em;
     align-items: center;
-    /* background-color: #333; */
-    color: white;
+    background-color: #bebaba;
+    color: rgb(117, 113, 113);
     width: 550px;
-    height: 320px;
+    height: 370px;
     border-radius: 10px; /* Bordes redondeados opcional */
     padding: 1em;
-    background: rgba(255, 255, 255, 0); /* Fondo blanco con 10% de opacidad */
+    /* background: rgba(255, 255, 255, 0);  */
     backdrop-filter: blur(15px); /* Desenfoque del fondo */
     -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
     z-index: 5;
 }
 
-.header_gancho {
+.header_gancho_primero {
     display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
     align-items: center;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -27,13 +30,22 @@
     font-style: normal;
     font-size: 1.5em;
     /* background-color: red; */
-    height: 2.5em;
-    gap: .5em;
+    height: 4em;
+    /* gap: .5em; */
+    color:white;
 }
-
+.header_gancho_primero label{
+    color: white;
+    font-size: 1.5em;
+}
+.nombre{
+    /* background-color: green; */
+    font-size: 2em;
+}
 .header_gancho label {
     font-size: 1.5em;
-    background: linear-gradient(to right, #0d99ff, #59EBFF);
+    /* background: linear-gradient(to right, #0d99ff, #59EBFF) */
+    background-color: rgb(117, 113, 113);
     -webkit-background-clip: text;
     color: transparent;
 }

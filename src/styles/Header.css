@@ -3,7 +3,7 @@
   justify-content: space-between; /* Distribuye espacio entre los elementos */
   align-items: center;
   padding: 2em;
-  background-color: #333;
+  background-color: #bebaba;
   color: white;
   /* width: 100%; */
 }
@@ -29,6 +29,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 3em
 }
 
 .logo:hover {
@@ -53,6 +54,7 @@
   font-size: 18px;
   padding: 5px 10px;
   transition: background-color 0.3s ease;
+  font-size: 1.5em;
 }
 
 .nav ul li a:hover {

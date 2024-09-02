@@ -23,7 +23,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={
           <>
             <div className='imagenInicial'>
-              <img src="../public/Paisaje.jpg" alt="Paisaje"/>
+              <img src="../public/4.png" alt="Paisaje"/>
             </div>
             <div className='container1'>
               <Gancho />
