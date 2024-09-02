@@ -29,7 +29,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: color 0.3s ease, transform 0.3s ease;
-  font-size: 3em
+  font-size: 2em
 }
 
 .logo:hover {
@@ -54,7 +54,7 @@
   font-size: 18px;
   padding: 5px 10px;
   transition: background-color 0.3s ease;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .nav ul li a:hover {

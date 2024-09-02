@@ -47,6 +47,7 @@ createRoot(document.getElementById('root')).render(
                 description="Finanzas Corporativas, Dirección de Operaciones, Estadistica"
               />
             </div>
+            <h1 className='Habilidades_Home'>Proyectos</h1>
             <div className='seccionProyectos'>
               <div>
                 <img src="/1.png" alt="Proyecto 1"/>

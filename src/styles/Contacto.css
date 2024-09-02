@@ -15,7 +15,7 @@
 .contact-section p {
   font-size: 1.2rem;
   margin-bottom: 40px;
-  color: #cccccc; /* Texto secundario en gris claro */
+  color: rgb(117, 113, 113); /* Texto secundario en gris claro */
 }
 
 .contact-form {

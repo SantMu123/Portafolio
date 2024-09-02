@@ -13,7 +13,7 @@ body {
 } */
 
 .imagenInicial {
-    margin-top: 10em;
+    margin-top: 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +47,7 @@ body {
 }
 
 .Habilidades_Home{
-    color: white;
+    color: rgb(117, 113, 113);
     text-align: center;
 }
 

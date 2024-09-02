@@ -2,7 +2,7 @@
     /* background-color: aquamarine; */
 }
 h2 {
-    color: #bebaba;
+    color: rgb(117, 113, 113);
 }
 .acerca {
     display: flex;
@@ -98,10 +98,10 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-bottom: 5em;
-    color: #bebaba;
+    color: rgb(117, 113, 113);
 }
 .Estudios h1{
-    color: #bebaba;
+    color: rgb(117, 113, 113);
     font-size: 1.5em;
 }
 .UIS-Campus{

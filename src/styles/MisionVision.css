@@ -6,14 +6,14 @@
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    color: white;
+    color: rgb(117, 113, 113);
     max-width: 1000px;
     margin: 0 auto;
   }
   
   .mision, .vision {
     width: 45%;
-    background-color: #a1a1a5;
+    background-color: #d4d4d6;
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -22,7 +22,7 @@
   .mision:hover, .vision:hover {
     background-color: #505355;
     transform: translateY(-5px);
-    color: #bebaba;
+    color: white;
   }
   
   .mision h2, .vision h2 {

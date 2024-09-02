@@ -7,7 +7,7 @@ const ProjectDescription = ({ title, image, date, description }) => {
       <h1 className="project-title">{title}</h1>
       <img src={image} alt={title} className="project-image" />
       <div className="project-details">
-        <p className="project-date"><strong>Date:</strong> {date}</p>
+        <p className="project-date"><strong>Fecha:</strong> {date}</p>
         <p className="project-description">{description}</p>
       </div>
     </div>

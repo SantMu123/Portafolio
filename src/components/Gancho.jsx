@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Gancho.css';
+import { Link, useLocation } from 'react-router-dom';
 
 const Gancho = () => {
   return (
@@ -9,9 +10,9 @@ const Gancho = () => {
         <label>Santiago Muñoz Castañeda</label>
       </div>
       <h3 className='ocupacion'>Desarrollador Backend Junior</h3>
-      <p className='descripcion'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta a et velit expedita odio ipsa eos? Assumenda iure distinctio cupiditate nobis. Et magnam quasi reprehenderit fugiat ducimus sit laudantium impedit.</p>
+      <p className='descripcion'>La combinación de desarrollo web e ingeniería industrial me ha permitido explorar nuevos horizontes y abordar los desafíos de manera más sistémica. Esta perspectiva me permite identificar problemas con mayor facilidad y ofrecer soluciones efectivas traducidas a código.</p>
       <div className='botones'>
-        <button className='botones_Proyectos'>Ver Proyectos</button>
+        <Link to="/proyectos" className='botones_Proyectos'>Ver Proyectos</Link>
         <a href="/Santiago_Munoz_Castaneda_CV.pdf" download className='botones_CV'>
           Descargar CV
         </a>
