@@ -21,7 +21,7 @@ const Proyectos = () => {
         <div className='habilidadesContainerUno'>
             <ProjectDescription
             title="Cinema Campus"
-            image="../public/2.png"
+            image="/2.png"
             date="Septiembre 02, 2024"
             description="Creacion de una App utilizando herramientas MERN (MongoDB, Express, React, Node) en la cual se maneja por medio de APIs toda la logica de un cinema"
             />
@@ -52,7 +52,7 @@ const Proyectos = () => {
         <div className='habilidadesContainerUno'>
         <ProjectDescription
             title="Proyecto Nuntius"
-            image="../public/1.png"
+            image="/1.png"
             date="Junio 25, 2024"
             description="Estructuración de idea de negocio sobre una App Revolucionaria enfocada en aumentar la seguridad de las ciudades"
         />
@@ -78,7 +78,7 @@ const Proyectos = () => {
         <div className='habilidadesContainerUno'>
         <ProjectDescription
             title="Space X"
-            image="../public/3.png"
+            image="/3.png"
             date="Abril 15, 2024"
             description="Creacion de Interfaz de consola de Space X utilizando Javascript Vanilla"
         />

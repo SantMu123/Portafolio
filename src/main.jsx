@@ -23,7 +23,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={
           <>
             <div className='imagenInicial'>
-              <img src="../public/4.png" alt="Paisaje"/>
+              <img src="/4.png" alt="Paisaje"/>
             </div>
             <div className='container1'>
               <Gancho />
@@ -49,13 +49,13 @@ createRoot(document.getElementById('root')).render(
             </div>
             <div className='seccionProyectos'>
               <div>
-                <img src="../public/1.png" alt="Proyecto 1"/>
+                <img src="/1.png" alt="Proyecto 1"/>
               </div>
               <div>
-                <img src="../public/2.png" alt="Proyecto 2"/>
+                <img src="/2.png" alt="Proyecto 2"/>
               </div>
               <div>
-                <img src="../public/3.png" alt="Proyecto 3"/>
+                <img src="/3.png" alt="Proyecto 3"/>
               </div>
               <button className='MasProyectos'><a href="/proyectos">Ver más Proyectos</a></button>
             </div>
