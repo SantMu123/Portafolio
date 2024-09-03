@@ -8,9 +8,9 @@
     background-color: #bebaba;
     color: rgb(117, 113, 113);
     width: 550px;
-    height: 370px;
+    height: 420px;
     border-radius: 10px; /* Bordes redondeados opcional */
-    padding: 1em;
+    padding: 0em 1em 2.7em 1em;
     /* background: rgba(255, 255, 255, 0);  */
     backdrop-filter: blur(15px); /* Desenfoque del fondo */
     -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores WebKit */
@@ -61,6 +61,8 @@
     font-family: "DM Sans", sans-serif;
     text-align: center;
     background-color: transparent;
+    margin-bottom: 3em;
+    font-size: 1.2em;
 }
 .botones {
     background-color: transparent;

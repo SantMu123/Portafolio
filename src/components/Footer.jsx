@@ -19,9 +19,15 @@ const Footer = () => {
       </div>
       <div className="footer-column">
         <h4>Contáctame</h4>
-        <ul>
+        <ul className='contactame-footer'>
           <li><a href="smunozcastaneda14@gmail.com">Correo</a></li>
           <li><a href="https://www.linkedin.com/in/santiagomunozcastaneda/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <div className='Telefono-Container'>
+            <label className='telefono'>Telefono: </label><h5>3053117007</h5>
+          </div>
+          <div className='Telefono-Container'>
+            <label className='telefono'>Correo:</label><h5>smunozcastaneda14@gmail.com</h5>
+          </div>
         </ul>
       </div>
       <div className="footer-column">

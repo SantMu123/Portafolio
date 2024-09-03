@@ -18,6 +18,7 @@ import { PiMicrosoftExcelLogoFill } from "react-icons/pi";
 import { SiPowerbi } from "react-icons/si";
 import { SiRstudioide } from "react-icons/si";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import BackendServices from '../components/Servicios.jsx';
 
 
 const AcercaPage = () => {
@@ -34,6 +35,9 @@ const AcercaPage = () => {
                         </div>
                         <div className='MisionVision'>
                             <MisionVision />
+                        </div>
+                        <div className='Servicios'>
+                            <BackendServices/>
                         </div>
                         <div className='Estudios'>
                             <h1>Estudios</h1>

@@ -14,11 +14,11 @@ const Objetivos = () => {
         </div>
         <div className="objetivo-card">
           <h3>A Mediano Plazo</h3>
-          <p>Aportar valor a las organizaciones que requieran de mi trbajo, siendo un profesional sobresaliente en mi sector.</p>
+          <p>Aportar valor a las organizaciones que requieran de mi trabajo, siendo un profesional sobresaliente en mi sector.</p>
         </div>
         <div className="objetivo-card">
           <h3>A Largo Plazo</h3>
-          <p>Ser lider de una gran empresa en donde pueda no solamente liderar grandes equipos sino tambien soluconar problemas sociales complejos.</p>
+          <p>Ser lider de una gran empresa en donde pueda no solamente liderar grandes equipos sino tambien solucionar problemas sociales complejos.</p>
         </div>
       </div>
     </div>
